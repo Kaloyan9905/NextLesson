@@ -1,0 +1,9 @@
+1: Have a map with all data included (hardcoded at first)
+2: Function that returns the current day and time in the format (hh:mm:ss)
+3: Try to get the following lesson.
+   - Check if there are any lessons TODAY:
+     - If so:
+       - Check if there is ongoing lesson
+       - Check if there is any lesson later
+         - If not:
+           - The following lesson is the first lesson the day after if the day contains at least one lesson
